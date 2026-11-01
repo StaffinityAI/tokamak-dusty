@@ -5,8 +5,8 @@
     .minimum_zig_version = "0.17.0",
     .dependencies = .{
         .dusty = .{
-            .url = "git+https://github.com/EuroZig/dusty.git#1b6abeef60249d07927d4f3ff4ef7b30137c482d",
-            .hash = "dusty-0.3.1-Qdw7RmTwIQB7Lquk0rbVpzZ-os3i1d3CFQRlHJTDz4wU",
+            .url = "git+https://github.com/lalinsky/dusty.git?ref=v0.5.0#48196c2d81f6cc54f6483b87f56cf808a9d7ba56",
+            .hash = "dusty-0.5.0-Qdw7RuwFJAAvz4m-QiYLfUnjj0_91imaCApFQXcDyt1p",
         },
     },
     .paths = .{

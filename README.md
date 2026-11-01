@@ -3,7 +3,7 @@
 📚 **[Documentation](https://tomsik.cz/tokamak)**
 
 Tokamak is a web application framework for Zig, built around
-[dusty](https://github.com/EuroZig/dusty) and a simple dependency
+[dusty](https://github.com/lalinsky/dusty) and a simple dependency
 injection container.
 
 > **Note:** The main branch requires **Zig 0.17.0** or newer.
@@ -24,7 +24,7 @@ sanitization, etc.
 > - new [cli module](https://github.com/cztomsik/tokamak/tree/master/src/cli.zig)
 > - injecting `tk.Injector` is deprecated, use `*tk.Injector`
 > - multi-module support (cross-module initializers, providers, overrides)
-> - Switched the HTTP server backend to [dusty](https://github.com/EuroZig/dusty).
+> - Switched the HTTP server backend to [dusty](https://github.com/lalinsky/dusty).
 > - Implemented hierarchical and introspectable routes.
 > - Added basic Swagger support.
 > - Added `tk.static.dir()` for serving entire directories.

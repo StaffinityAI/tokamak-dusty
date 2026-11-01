@@ -70,7 +70,7 @@ pub const Server = struct {
     pub fn start(self: *Server) !void {
         self.adapter = .{ .server = self };
         self.http.ctx = &self.adapter;
-        self.http.config.listen = &.{self.listener};
+        self.http.config.listeners = (&self.listener)[0..1];
         self.http.router.any("/", Adapter.handle);
         self.http.router.any("/*", Adapter.handle);
         return self.http.run();

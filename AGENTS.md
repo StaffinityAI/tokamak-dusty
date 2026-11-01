@@ -11,10 +11,10 @@
 
 ## Project Overview
 
-**Tokamak** is a web application framework for Zig (v0.17.x), built around [dusty](https://github.com/EuroZig/dusty) and a dependency injection container. It is designed to run behind a reverse proxy (Nginx, CloudFront) for SSL, caching, and sanitization.
+**Tokamak** is a web application framework for Zig (v0.17.x), built around [dusty](https://github.com/lalinsky/dusty) and a dependency injection container. It is designed to run behind a reverse proxy (Nginx, CloudFront) for SSL, caching, and sanitization.
 
 - **Version:** 2.0.0
-- **Dependency:** `dusty` (EuroZig fork, pinned in `build.zig.zon`)
+- **Dependency:** `dusty` (upstream `lalinsky/dusty` v0.5.0, pinned in `build.zig.zon`)
 - **Build command:** `zig build`
 - **Test command:** `zig build test` (optionally with `-Dtest-filter=<pattern>` to skip non-matching tests)
 - **Docs build:** `npm run docs:build` (in `docs/`)
